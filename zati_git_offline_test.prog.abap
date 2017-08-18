@@ -11,6 +11,10 @@ REPORT zati_git_offline_test.
 *& --- Description ---
 *& Test report for an offline abapGit. NEWTEST
 *&---------------------------------------------------------------------*
+*& --- History ---
+*& 17-08-18 A. Tiebing (Realcore Group)
+*&          Project 1337
+*&---------------------------------------------------------------------*
 
 TABLES: mara.
 
@@ -34,3 +38,8 @@ SELECTION-SCREEN END OF BLOCK b02.
 *----------------------------------------------------------------------*
 * Events
 *----------------------------------------------------------------------*
+
+START-OF-SELECTION.
+
+  IF sy-subrc = 0.
+  ENDIF.
