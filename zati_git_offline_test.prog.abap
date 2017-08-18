@@ -26,6 +26,11 @@ SELECTION-SCREEN BEGIN OF BLOCK b01.
 SELECT-OPTIONS: s_matnr FOR mara-matnr.
 SELECTION-SCREEN END OF BLOCK b01.
 
+
+SELECTION-SCREEN BEGIN OF BLOCK b02.
+SELECT-OPTIONS: s_attyp FOR mara-attyp.
+SELECTION-SCREEN END OF BLOCK b02.
+
 *----------------------------------------------------------------------*
 * Events
 *----------------------------------------------------------------------*
